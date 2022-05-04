@@ -1,0 +1,52 @@
+html,body,#root{
+    height: 100%;
+}
+  
+*{
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.main-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows:1fr 4fr;
+    background-color: #E1D5D5;
+}
+.top-section{
+    display: grid;
+    grid-template-columns: .2fr 3fr .5fr;
+    padding: 20px;
+    margin: 50px;
+}
+
+.bottom-section{
+    background-color: #E1D5D5;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-left: 40px;
+}
+
+h4{
+    font-weight: 30px;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dp-part img{
+    height: 50px;
+    width: 60px;
+}
+.top-section img{
+    height: 30px;
+    width: 30px;
+    display: grid;
+    align-items: center;
+}
+.bin{
+    display: grid;
+}
+
+.eyeIcon{
+    display: grid;
+    
+}
